@@ -26,6 +26,9 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/custom_css/myStyle.css">
 
+  <!-- POP Styles -->
+  <link rel="stylesheet" href="assets/custom_css/pop_styles.css">
+
 </head>
 
 <body>
@@ -125,12 +128,20 @@
       <div id="main-slide" class="carousel slide my-carousel-inner" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/slider/2.jpg">
+            <img src="assets/img/hero image/Wayabotz. - Hero (Background + Robot).webp">
             <div class="carousel-caption d-md-block">
              <!-- <p class="fadeInUp wow" data-wow-delay=".6s" >WAYABOTZ`22</p>  -->
-               <h1 class="wow fadeInDown heading" data-wow-delay=".4s" style="width: 1000px; height: 1000px;">WAYABOTZ`22</h1> 
-             <!-- <a href="register.html" class="fadeInLeft wow btn btn-common btn-lg"
-                data-wow-delay=".6s">register</a>-->
+               <div class="hero-text-holder">
+                 <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Take your innovation to the limit and beyond!</h1>
+                            <!-- <a href="register.html" class="fadeInLeft wow btn btn-common btn-lg"
+                  data-wow-delay=".6s">register</a>-->
+                  <h5>
+  
+                    Be a part of the most awaited robotic competition, WAYABOTZ 2022 organized by the Electronic Society (ESOC) and IEEE Student Branch of Wayamba University of Sri Lanka. Form your team of innovators & register now!
+  
+                  </h5>
+  
+               </div>
             </div>
           </div>
         </div>
@@ -370,40 +381,12 @@
             </div>
           </div>
         </div>
-        <div class="row">
-           <div class="col-md-12 col-md-12 col-md-12"> 
-
-            
-
-             
-
-             <!-- Team Item Starts -->   
-            <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-              <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
-                <div class="team-overlay">
-                  <div class="overlay-social-icon text-center">
-                    <ul class="social-icons">
-                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="info-text">
-                <h3><a href="#">JONATHON DOE</a></h3>
-                <p>Product Designer, Tesla</p>
-              </div>
-            </div> 
-            <!-- Team Item Ends -->    
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">  
+        <div class="row d-flex justify-content-center">  
+          <div class="col-sm-6 col-md-6 col-lg-4 "  data-toggle="modal" data-target="#judge1">  
             <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
               <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
+                <img class="img-fluid" src="assets/img/judges/judge1.jpg" alt="">
                 <div class="team-overlay">
                   <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
@@ -416,17 +399,68 @@
                 </div>
               </div>
               <div class="info-text">
-                <h3><a href="#">Patric Green</a></h3>
-                <p>Front-end Developer, Dropbox</p>
+                <h3><a href="#">Eng. Hasitha Eranda Bandara</a></h3>
+                <p>Lecturer, Department of Electrotechnology, WUSL</p>
               </div>
             </div>
             <!-- Team Item Ends -->
           </div>
 
+
+          <div class="modal" id="judge1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h6 class="modal-title h5">Eng. Hasitha Eranda Bandara</h6>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="profile_container">
+                    <div class="profile_section_1">
+                        <div class="profile_img_holder">
+                            <img src="assets/img/judges/judge1.jpg" alt="">
+                        </div>
+                        <div class="profile_caption_holder">
+                            <!-- <p class="profile_caption_heading">
+                                Lorem, ipsum dolor.
+                            </p> -->
+                            <p class="profile_caption_body">
+                              Lecturer, Department of Electrotechnology, WUSL
+                            </p>
+                            <p class="profile_caption_body">
+                              M.Phil, B.Tech (Hons) (Eng)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="profile_section_2">
+                        <p>Educational qualifications: M.Phil, B.Tech (Hons) (Eng),  
+                          Memberships: AMIESL, MSLAAS, MIEEE
+                          Lecturer
+                          Faculty Coordinator / AHEAD Project (STEM Grant) 
+                          Department of Electrotechnology
+                          Wayamba University of Sri Lanka, Kuliyapitiya 
+                          Phone: +94 71 4968898; +94 373976657</p>
+                    </div>
+                </div>
+                </div>
+          
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div> -->
+          
+              </div>
+            </div>
+          </div>
+
           <div class="col-sm-6 col-md-6 col-lg-4">
 
             <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
+            <div class="team-item wow fadeInUp" data-wow-delay="0.6s" data-toggle="modal" data-target="#judge2">
               <div class="team-img">
                 <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
                 <div class="team-overlay">
@@ -448,7 +482,53 @@
             <!-- Team Item Ends -->
           </div>
 
-          <div class="col-sm-6 col-md-6 col-lg-4">
+          <!-- The Modal -->
+<div class="modal" id="judge2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h6 class="modal-title h5">Modal Heading</h6>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="profile_container">
+          <div class="profile_section_1">
+              <div class="profile_img_holder">
+                  <img src="src/face1.jpg" alt="">
+              </div>
+              <div class="profile_caption_holder">
+                  <p class="profile_caption_heading">
+                      Lorem, ipsum dolor.
+                  </p>
+                  <p class="profile_caption_body">
+                      Lorem ipsum dolor sit.
+                  </p>
+                  <p class="profile_caption_body">
+                      Lorem ipsum dolor sit amet.
+                  </p>
+              </div>
+          </div>
+          <div class="profile_section_2">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum tenetur praesentium tempore voluptatum
+                  odit, ratione repudiandae impedit itaque, eos dolorum aliquid molestiae, quibusdam inventore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo perferendis, officia quasi molestias temporibus deserunt iusto cum optio assumenda.</p>
+          </div>
+      </div>
+      </div>
+
+      <!-- Modal footer -->
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div> -->
+
+    </div>
+  </div>
+</div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4" data-toggle="modal" data-target="#judge3">
             <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="0.8s">
               <div class="team-img">
@@ -471,7 +551,53 @@
             </div>
             <!-- Team Item Ends -->
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
+
+          <div class="modal" id="judge3">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h6 class="modal-title h5">Modal Heading J3</h6>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="profile_container">
+                    <div class="profile_section_1">
+                        <div class="profile_img_holder">
+                            <img src="src/face1.jpg" alt="">
+                        </div>
+                        <div class="profile_caption_holder">
+                            <p class="profile_caption_heading">
+                                Lorem, ipsum dolor.
+                            </p>
+                            <p class="profile_caption_body">
+                                Lorem ipsum dolor sit.
+                            </p>
+                            <p class="profile_caption_body">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="profile_section_2">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum tenetur praesentium tempore voluptatum
+                            odit, ratione repudiandae impedit itaque, eos dolorum aliquid molestiae, quibusdam inventore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo perferendis, officia quasi molestias temporibus deserunt iusto cum optio assumenda.</p>
+                    </div>
+                </div>
+                </div>
+          
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div> -->
+          
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4" data-toggle="modal" data-target="#judge4">
             <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="1s">
               <div class="team-img">
@@ -494,31 +620,54 @@
             </div>
             <!-- Team Item Ends -->
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="1.2s">
-              <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-06.jpg" alt="">
-                <div class="team-overlay">
-                  <div class="overlay-social-icon text-center">
-                    <ul class="social-icons">
-                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
+
+          <div class="modal" id="judge4">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h6 class="modal-title h5">Modal Heading J4</h6>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-              </div>
-              <div class="info-text">
-                <h3><a href="#">Chris Adams</a></h3>
-                <p>UI Designer, Apple</p>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="profile_container">
+                    <div class="profile_section_1">
+                        <div class="profile_img_holder">
+                            <img src="src/face1.jpg" alt="">
+                        </div>
+                        <div class="profile_caption_holder">
+                            <p class="profile_caption_heading">
+                                Lorem, ipsum dolor.
+                            </p>
+                            <p class="profile_caption_body">
+                                Lorem ipsum dolor sit.
+                            </p>
+                            <p class="profile_caption_body">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="profile_section_2">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum tenetur praesentium tempore voluptatum
+                            odit, ratione repudiandae impedit itaque, eos dolorum aliquid molestiae, quibusdam inventore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo perferendis, officia quasi molestias temporibus deserunt iusto cum optio assumenda.</p>
+                    </div>
+                </div>
+                </div>
+          
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div> -->
+          
               </div>
             </div>
-            <!-- Team Item Ends --> 
           </div>
+
         </div>
-        <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a>
+        <!-- <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a> -->
       </div>
     </section>
     <!--jude Section End -->
@@ -715,7 +864,7 @@
     <!-- Coundown Section End -->
 
     <!-- Ask Question Section Start -->
-    <section id="faq" class="section-padding">
+    <!-- <section id="faq" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -794,7 +943,7 @@
               </div>
             </div>
           </div>
-         <!-- <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
             <div class="accordion">
               <div class="card">
                 <div class="card-header" id="headingOne2">
@@ -856,11 +1005,11 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Ask Question Section End -->
 
 

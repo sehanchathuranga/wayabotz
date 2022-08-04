@@ -80,9 +80,49 @@
     min-height: 130px;
 }
 
+.hero-text-holder {
+    margin-right: 40%;
+    text-align: right;
+}
+
+.hero-text-holder h1 {
+    font-size: 2.25rem;
+}
+
+.hero-text-holder h5 {
+    font-size: 1rem;
+}
+
+/* .carousel-caption {
+    padding: 0%;
+} */
+
+/* POP UP model */
+
+.modal {
+    top: 20%;
+}
+
+
 /* Nav-brand*/
 
 @media screen and (max-width:768px) {
+    /* .hero-text-holder {
+        margin-right: 0%;
+        text-align: center;
+    } */
+
+
+
+    .hero-text-holder h1 {
+        font-size: 1.85rem;
+    }
+    
+    .hero-text-holder h5 {
+        font-size: 0.8rem;
+    }
+
+
     .navbar-brand {
         margin: 0;
         padding: 0;
@@ -125,4 +165,38 @@
     /* .my-faq-text {
         font-size: 1.125rem;
     } */
+}
+
+@media screen and (max-width:600px) {
+    .hero-text-holder h1 {
+        font-size: 1.6rem;
+    }
+    
+    .hero-text-holder h5 {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .hero-text-holder h1 {
+        font-size: 1.2rem;
+    }
+    
+    .hero-text-holder h5 {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .hero-text-holder h1 {
+        font-size: 1.2rem;
+    }
+    
+    .hero-text-holder h5 {
+        font-size: 0.5rem;
+    }
+
+    .hero-text-holder {
+        margin-right: 30%;
+    }
 }

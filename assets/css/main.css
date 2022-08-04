@@ -2439,7 +2439,7 @@ background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
 }
 
 #main-slide .carousel-item .carousel-caption .heading {
-  font-size: 72px;
+  /* font-size: 72px; */
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
